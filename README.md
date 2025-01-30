@@ -5,11 +5,9 @@
 
 ## Équipe
 - HABBACHICH Ilyass 
-- AKKI El Mahdi
-- RAHMANI Hamza
-- ISSOUAL Amine
-- EL MAZDOUGUI ANASS
+- RAHMANI hamza
 - MOARRAF Yassine
+- TANAFAAT Marouane
 
 
 
