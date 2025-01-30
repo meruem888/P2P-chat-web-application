@@ -1,0 +1,51 @@
+<mxfile host="Electron" modified="2024-06-02T23:27:54.344Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="SMRFrfLERU4Af4WRbJ4j" version="22.0.2" type="device">
+  <diagram name="Page-1" id="5aOuTcnym03dUcYpODS-">
+    <mxGraphModel dx="1658" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-1" value="Front-End" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-2" value="Back-End" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="210" y="65" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-9" value="Thread pool" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="265" y="170" width="445" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-3" value="Web server&lt;br&gt;thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kMlZM9Eb54oPY51V_Mfb-1" target="kMlZM9Eb54oPY51V_Mfb-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="490" as="sourcePoint" />
+            <mxPoint x="620" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-5" value="websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kMlZM9Eb54oPY51V_Mfb-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.3375" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-6" value="p2p communication thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-7" value="event-loop" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="590" y="240" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kMlZM9Eb54oPY51V_Mfb-15" value="Other threads for&lt;br&gt;other services ...." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9q_Q126acyXVXkRKJUOu-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kMlZM9Eb54oPY51V_Mfb-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9q_Q126acyXVXkRKJUOu-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="280" width="50" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
