@@ -4,8 +4,7 @@
 </div>
 
 ## Équipe
-- HABBACHICH Ilyass 
-- RAHMANI hamza
+
 - MOARRAF Yassine
 - TANAFAAT Marouane
 
